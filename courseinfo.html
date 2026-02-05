@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Futuretech Premium Courses</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="courseinfo.css">
+</head>
+
+<body>
+
+<div class="page-title" id="pageTitle">Futuretech Premium Courses</div>
+
+<!-- COURSE GRID -->
+<div class="course-grid" id="courseGrid">
+    <div class="row g-4" id="courseCards"></div>
+</div>
+
+<!-- DETAILS PAGE -->
+<div class="details-box hidden" id="detailsBox">
+    <img id="detailImg">
+    <h2 id="detailTitle"></h2>
+    <p id="detailOverview"></p>
+
+    <p><strong>Duration:</strong> <span id="detailDuration"></span></p>
+    <p><strong>Batch Mode:</strong> <span id="detailMode"></span></p>
+    <p><strong>Instructor:</strong> Futuretech Experts</p>
+
+    <p><strong>Skills You Will Learn:</strong></p>
+    <ul id="detailSkills"></ul>
+
+    <p><strong>Tools & Technologies:</strong></p>
+    <ul id="detailTools"></ul>
+
+    <p><strong>Career Opportunities:</strong> <span id="detailCareer"></span></p>
+    <p><strong>Certification:</strong> <span id="detailCertificate"></span></p>
+    <p><strong>Price:</strong> <span id="detailPrice"></span></p>
+
+    <button class="back-btn" onclick="goBack()">⬅ Back to Courses</button>
+</div>
+
+<!-- Custom JS -->
+<script src="courseinfo.js"></script>
+</body>
+</html>
