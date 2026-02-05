@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #e9edf3;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-wrapper {
+    width: 100%;
+    max-width: 480px;
+    padding: 20px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #1f2937;
+}
+
+/* Photo Section */
+.photo-section {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+    padding: 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+}
+
+.photo-preview {
+    width: 110px;
+    height: 110px;
+    border: 2px dashed #cbd5e1;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #f8fafc;
+    color: #64748b;
+    font-size: 14px;
+}
+
+.photo-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photo-upload {
+    flex: 1;
+}
+
+.photo-upload label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.photo-upload input {
+    width: 100%;
+}
+
+/* Inputs */
+form input {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 14px;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    font-size: 15px;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* Buttons */
+.btn-group {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.btn {
+    flex: 1;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.save {
+    background: #2e8b57;
+}
+
+.profile {
+    background: #2563eb;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}

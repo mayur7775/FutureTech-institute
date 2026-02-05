@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Notice</title>
+<link rel="stylesheet" href="notice1.css">
+</head>
+
+<body>
+
+<div class="notice-container">
+<h2>Add Notice</h2>
+
+<form id="noticeForm">
+  
+<label>Notice Title</label>
+<input type="text" id="title" required>
+
+<label>Notice Description</label>
+<textarea rows="5" id="description" required></textarea>
+
+<label>Course / All Students</label>
+<select id="course" required>
+  <option value="">-- Select --</option>
+  <option>All Students</option>
+  <option>Web Development</option>
+  <option>Java Full Stack</option>
+  <option>Python</option>
+  <option>Data Science</option>
+</select>
+
+<label>Publish Date</label>
+<input type="date" id="date" required>
+
+<button type="submit">Publish Notice</button>
+
+</form>
+</div>
+
+<script src="notice1.js"></script>
+
+</body>
+</html>
